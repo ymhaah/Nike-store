@@ -1,0 +1,2 @@
+(()=>{"use strict";console.log("Test");var e=document.querySelector(".nList"),s=document.querySelector("header .Container nav");e.onclick=function(){var t;t=s,e.classList.toggle("navList"),t.classList.toggle("exbend")},window.onscroll=function(){e.classList.remove("navList"),s.classList.remove("exbend")}})();
+//# sourceMappingURL=main-script.950a1c93965874f05654.bundle.js.map
