@@ -1,5 +1,5 @@
 # nike store
-#[link]([https://your-live-site-url.com](https://ymhaah.github.io/Nike-store/))
+# [link](https://ymhaah.github.io/Nike-store/)
 ## Table of contents
 
 -   [Overview](#overview)
@@ -24,7 +24,7 @@ An example of a nike store
 ### Links
 
 -   Icon website: [svgrepo](https://www.svgrepo.com/)
--   Live Site URL: [link]([https://your-live-site-url.com](https://ymhaah.github.io/Nike-store/))
+-   Live Site URL: [link](https://ymhaah.github.io/Nike-store/)
 
 ## My process
 
