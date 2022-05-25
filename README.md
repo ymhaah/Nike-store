@@ -1,5 +1,7 @@
 # nike store
-# [link](https://ymhaah.github.io/Nike-store/)
+
+# [Live Site URL](https://ymhaah.github.io/Nike-store/)
+
 ## Table of contents
 
 -   [Overview](#overview)
@@ -17,7 +19,7 @@ An example of a nike store
 
 ### Screenshot
 
-![hero of hte page](./design/screenshot.png)
+![hero of the page](./design/screenshot.png)
 ![products section](./design/products.png)
 ![product](./design/product.png)
 
@@ -28,7 +30,7 @@ An example of a nike store
 
 ## My process
 
-I focused on using the Animation that appears with the download of the page on this site and I used this site as an example on a Nike shoe store
+I focused on using the Animation that appears with the open of the page on this site and I used this site as an example on a Nike shoe store
 
 ### Built with
 
