@@ -98,15 +98,14 @@ Check out my latest previous articles:
 ## Author
 
 -   professional links:
-    -   [Twitter](https://twitter.com/hafanwi)
+    -   [Twitter](https://twitter.com/hafanwy)
     -   [LinkedIn](https://www.linkedin.com/in/youssef-hafnawy/)
-    -   [GitHub](https://github.com/ymhaah)
 -   Hire me:
-    -   [UpWork](https://www.upwork.com/services/product/development-it-a-custom-and-responsive-websites-in-wordpress-1577236892828233728?ref=project_share)
-    -   [Freelancer](https://freelancer.com/u/ymhaah)
+    -   [UpWork](https://www.upwork.com/freelancers/~01acd8e5370e5646aa)
 -   Blog:
-    -   [HashNode](https://hafnawi.hashnode.dev/)
-    -   [Dev.to](https://dev.to/ymhaah)
     -   [Medium](https://medium.com/@ymhaah250)
+    -   [Dev.to](https://dev.to/ymhaah)
+    
+    
 
 
