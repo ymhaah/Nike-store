@@ -1,21 +1,9 @@
 # nike store
+> Start at: May 23, 2022
 
-# [Live Site URL](https://ymhaah.github.io/Nike-store/)
+## Project Description
 
-## Table of contents
-
--   [Overview](#overview)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
--   [Author](#author)
-
-## Overview
-
-An example of a nike store
+Your Ultimate Destination for Unique Nike Footwear! Dive into the world of personalized style with our exclusive collection of modified Nike shoes. At SoleCraft Customs, we blend craftsmanship and creativity to deliver one-of-a-kind sneakers tailored to your taste. Explore a diverse range of designs, from custom colorways to intricate embellishments, and step into a realm where your footwear becomes a true expression of individuality. Elevate your sneaker game with SoleCraft Customs – where innovation meets iconic Nike classics for a truly bespoke shopping experience.
 
 ### Screenshot
 
@@ -25,12 +13,8 @@ An example of a nike store
 
 ### Links
 
+-   [Live Site URL](https://ymhaah.github.io/Nike-store/)
 -   Icon website: [svgrepo](https://www.svgrepo.com/)
--   Live Site URL: [link](https://ymhaah.github.io/Nike-store/)
-
-## My process
-
-I focused on using the Animation that appears with the open of the page on this site and I used this site as an example on a Nike shoe store
 
 ### Built with
 
@@ -95,16 +79,21 @@ Check out my latest previous articles:
 -   [Top 5 Icon websites for devs and designers!!!](https://dev.to/ymhaah/top-5-icon-websites-for-devs-and-designers-53mh)
 -   [30-Day React Learning Journey!](https://dev.to/ymhaah/series/20473)
 
-## Author
 
+## Author
 -   professional links:
-    -   [Twitter](https://twitter.com/hafanwy)
-    -   [LinkedIn](https://www.linkedin.com/in/youssef-hafnawy/)
+    - [Twitter / X](https://twitter.com/hafanwy)
+    - [LinkedIn](https://www.linkedin.com/in/youssef-hafnawy/)
+    - [Newsletter](https://hefnawystudio.substack.com/?utm_source=navbar&utm_medium=web&r=31jf6o)
 -   Hire me:
     -   [UpWork](https://www.upwork.com/freelancers/~01acd8e5370e5646aa)
 -   Blog:
     -   [Medium](https://medium.com/@ymhaah250)
     -   [Dev.to](https://dev.to/ymhaah)
+
+### Free Services
+- [Free Website performance Optimization](https://tally.so/r/nPzKaB)   
+- [Free Website Accessibility Optimization](https://tally.so/r/3lr2bp)  
     
     
 
