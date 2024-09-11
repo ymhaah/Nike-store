@@ -1,1 +1,329 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <meta name="description" content="shoes stor"> <meta name="author" content="Yousef Hafnawi"> <meta name="color-scheme" content="dark light"> <title>Nike</title> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <link href="main-style.33261774d221587bbae1.css" rel="stylesheet"></head> <body class="yellow"> <main> <header> <div class="Container"> <div class="Logo"> <a href="/index.html"> <img src="shoes-shoe-svgrepo-com.svg" alt="logo"> </a> </div> <div class="switch slid s1"> <nav> <div class="nList"> <span> <img src="icon-close.svg" alt="close"> </span> <span> <img src="burger-list-menu-navigation-svgrepo-com.svg" alt="list menu"> </span> </div> <ul> <a href="/index.html">home</a> <a href="#">products</a> <a href="#">review</a> <a href="#">about</a> </ul> </nav> <div class="header-icon"> <a href="#"> <img src="shopping-cart-svgrepo-com.svg" class="svg" alt="shopping cart"> </a> <a href="#"> <img src="search-svgrepo-com.svg" class="svg" alt="search"> </a> </div> </div> </div> </header> <section aria-labelledby="Introduction to page"> <div class="Hero"> <img src="up-and-down-arrows-svgrepo-com.svg" alt="up-and-down-arrows" class="svg up-and-down-arrows"> <img src="rotated-right-arrow-with-broken-line-svgrepo-com.svg" alt="rotated-right-arrow-with-broken-line" class="svg rotated-right-arrow-with-broken-line"> <div class="Hero-Star"> <div class="shose start"> <img src="home-shoe-3.png" class="shoAni" alt="yellow shoes"> </div> </div> <div class="Hero-Text"> <span class="slid s2"> Just do it </span> <h1 class="slid s3" id="Introduction to page"> Nike shoes is The best in the world </h1> <p class="slid s4"> We are proud to offer the best suitable shoes for all needs to help everyone achieve a nipple </p> <div class="slid .s4"> <a button href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank"> in the cart </a> </div> <h2>Lorem ipsum dolor sit Obcaecati incidunt porro</h2> </div> </div> </section> <article class="blueShoes"> <div class="Container"> <div class="blueShoes-Star"> <h1 class="top-left">Athletic &</h1> <h1 class="top-right">modern</h1> <h2>Nike</h2> <img src="home-shoe-2.png" alt="blue-shoes" class="blue-shoes" loading="lazy"> </div> </div> </article> <article class="product"> <div class="prod p1"> <h3>Nike</h3> <img src="home-shoe-3.png" alt="yellow shoes" loading="lazy"> <p>-the yellow shoes-</p> </div> <div class="prod p2"> <h3>Nike</h3> <img src="home-shoe-1.png" alt="red shoes" loading="lazy"> <p>-the red shoes-</p> </div> <div class="prod p3"> <h3>Nike</h3> <img src="home-shoe-2.png" alt="blue shoes" loading="lazy"> <p>-the blue shoes-</p> </div> <div class="prod p4"> <h3>Nike</h3> <img src="home-shoe-1.png" alt="browne shoes" loading="lazy"> <p>-the browne shoes-</p> </div> </article> <footer id="Contact"> <div class="Container"> <h1>Stay up-to-date with what we’re doing</h1> <form action=""> <input type="email" placeholder="Enter your Email" required minlength="5" maxlength="100" inputfiled> <button type="submit" button class="redButton"> Contact Us </button> </form> </div> <div class="footer-header"> <div class="Container"> <div class="Logo"> <a href="/index.html"> <img src="shoes-shoe-svgrepo-com.svg" alt="homepage logo" loading="lazy"> </a> </div> <nav> <ul> <a href="/index.html">home</a> <a href="#">products</a> <a href="#">review</a> <a href="#">about</a> </ul> </nav> </div> </div> </footer> <main> </main><script defer="defer" src="main-script.950a1c93965874f05654.bundle.js"></script></body> </html> 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <meta name="twitter:title" content="My Nike Custom Shop" />
+        <meta
+            name="twitter:description"
+            content="A landing page for an e-commerce site showcasing a mock project for a custom Nike shoe store."
+        />
+        <meta name="twitter:image" content="/design/screenshot.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta property="og:locale" content="en_US" />
+
+        <meta property="og:title" content="My Nike Custom Shop" />
+        <meta
+            property="og:description"
+            content="A landing page for an e-commerce site showcasing a mock project for a custom Nike shoe store."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/design/screenshot.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta
+            name="description"
+            content="A landing page for an e-commerce site showcasing a mock project for a custom Nike shoe store."
+        />
+        <meta
+            name="keywords"
+            content="e-commerce, landing page, custom Nike shoes"
+        />
+
+        <meta name="author" content="Youssef Hefnawy" />
+
+        <meta name="theme-color" content="#e7b944" />
+        <meta name="color-scheme" content="light dark" />
+
+        <script>
+            var supportsCssVars = function () {
+                var style = document.createElement("style");
+                style.innerHTML = ":root { --tmp-var: bold; }";
+                document.head.appendChild(style);
+                var supported = !!(
+                    window.CSS &&
+                    window.CSS.supports &&
+                    window.CSS.supports("font-weight", "var(--tmp-var)")
+                );
+                style.parentNode.removeChild(style);
+                return supported;
+            };
+            if (!supportsCssVars()) {
+                var div = document.createElement("div");
+                var p = document.createElement("p");
+                div.classList.add("old-script");
+                p.textContent =
+                    "Please update your browser to a modern version to view this website.";
+                div.appendChild(p);
+                document.body.appendChild(div);
+            }
+        </script>
+        <noscript>
+            <style>
+                .no-script {
+                    display: block !important;
+                }
+            </style>
+        </noscript>
+        <script nomodule="">
+            var div = document.createElement("div");
+            var p = document.createElement("p");
+            div.classList.add("old-script");
+            p.textContent =
+                "Please update your browser to a modern version to view this website.";
+            div.appendChild(p);
+            document.body.appendChild(div);
+        </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="/index.css" rel="stylesheet" />
+
+        <link rel="icon" type="image/svg+xml" href="/assets/svg/shoe.svg" />
+        <title>My Nike Custom Shop</title>
+    </head>
+    <body class="yellow">
+        <main>
+            <header>
+                <div class="Container">
+                    <div class="Logo">
+                        <a href="/index.html">
+                            <img src="/assets/svg/shoe.svg" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="switch slid s1">
+                        <nav>
+                            <div class="nList">
+                                <span>
+                                    <img
+                                        src="/assets/svg/icon-close.svg"
+                                        alt="close"
+                                    />
+                                </span>
+                                <span>
+                                    <img
+                                        src="burger-list-menu-navigation.svg"
+                                        alt="list menu"
+                                    />
+                                </span>
+                            </div>
+                            <ul>
+                                <a href="/index.html">home</a>
+                                <a href="#">products</a>
+                                <a href="#">review</a>
+                                <a href="#">about</a>
+                            </ul>
+                        </nav>
+                        <div class="header-icon">
+                            <a href="#">
+                                <img
+                                    src="/assets/svg/shopping-cart.svg"
+                                    class="svg"
+                                    alt="shopping cart"
+                                />
+                            </a>
+                            <a href="#">
+                                <img
+                                    src="/assets/svg/search.svg"
+                                    class="svg"
+                                    alt="search"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section aria-labelledby="Introduction">
+                <div class="Hero">
+                    <img
+                        src="/assets/svg/up-and-down-arrows.svg"
+                        alt="up-and-down-arrows"
+                        class="svg up-and-down-arrows"
+                    />
+                    <img
+                        src="/assets/svg/rotated-right-arrow-with-broken-line.svg"
+                        alt="rotated-right-arrow-with-broken-line"
+                        class="svg rotated-right-arrow-with-broken-line"
+                    />
+                    <div class="Hero-Star">
+                        <div class="shose start">
+                            <img
+                                src="/assets/img/home-shoe-3.png"
+                                class="shoAni"
+                                alt="yellow shoes"
+                            />
+                        </div>
+                    </div>
+                    <div class="Hero-Text">
+                        <span class="slid s2">Just do it </span>
+                        <h1 class="slid s3" id="Introduction">
+                            Nike shoes is The best in the world
+                        </h1>
+                        <p class="slid s4">
+                            We are proud to offer the best suitable shoes for
+                            all needs to help everyone achieve a nipple
+                        </p>
+                        <div class="slid .s4">
+                            <a
+                                button
+                                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                                target="_blank"
+                                >in the cart
+                            </a>
+                        </div>
+                        <h2>Lorem ipsum dolor sit Obcaecati incidunt porro</h2>
+                    </div>
+                </div>
+            </section>
+            <article class="blueShoes">
+                <div class="Container">
+                    <div class="blueShoes-Star">
+                        <h1 class="top-left">Athletic &</h1>
+                        <h1 class="top-right">modern</h1>
+                        <h2>Nike</h2>
+                        <img
+                            src="/assets/img/home-shoe-2.png"
+                            alt="blue-shoes"
+                            class="blue-shoes"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="prod p1">
+                    <h3>Nike</h3>
+                    <img
+                        src="/assets/img/home-shoe-3.png"
+                        alt="yellow shoes"
+                        loading="lazy"
+                    />
+                    <p>-the yellow shoes-</p>
+                </div>
+                <div class="prod p2">
+                    <h3>Nike</h3>
+                    <img
+                        src="/assets/img/home-shoe-1.png"
+                        alt="red shoes"
+                        loading="lazy"
+                    />
+                    <p>-the red shoes-</p>
+                </div>
+                <div class="prod p3">
+                    <h3>Nike</h3>
+                    <img
+                        src="/assets/img/home-shoe-2.png"
+                        alt="blue shoes"
+                        loading="lazy"
+                    />
+                    <p>-the blue shoes-</p>
+                </div>
+                <div class="prod p4">
+                    <h3>Nike</h3>
+                    <img
+                        src="/assets/img/home-shoe-1.png"
+                        alt="browne shoes"
+                        loading="lazy"
+                    />
+                    <p>-the browne shoes-</p>
+                </div>
+            </article>
+            <footer id="Contact">
+                <div class="Container">
+                    <h1>Stay up-to-date with what we’re doing</h1>
+                    <form action="">
+                        <input
+                            inputFiled
+                            inputmode="email"
+                            type="email"
+                            autocomplete="email"
+                            placeholder="Enter your Email"
+                            required
+                            minlength="5"
+                            maxlength="100"
+                        />
+                        <button type="submit" button class="redButton">
+                            Contact Us
+                        </button>
+                    </form>
+                </div>
+                <div class="footer-header">
+                    <div class="Container">
+                        <div class="Logo">
+                            <a href="/index.html">
+                                <img
+                                    src="/assets/svg/shoe.svg"
+                                    alt="homepage logo"
+                                    loading="lazy"
+                                />
+                            </a>
+                        </div>
+                        <nav>
+                            <ul>
+                                <a href="/index.html">home</a>
+                                <a href="#">products</a>
+                                <a href="#">review</a>
+                                <a href="#">about</a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <!--? scripts -->
+        <div class="no-script">
+            <p>Please enable JavaScript to view this website.</p>
+        </div>
+        <script>
+            console.log(
+                `Made with 💙 by Youssef Hefnawy: https://twitter.com/hafanwy`
+            );
+            console.warn(
+                `
+              \$$\     $$/  $$\   $$\ 
+               \$$\   $$/   $$ |  $$ |
+                \$$\ $$/    $$ |  $$ |
+                 \$$$$/     $$$$$$$$ |
+                  \$$/      $$  __$$ |
+                  |$$|      $$ |  $$ |
+                  |$$|      $$ |  $$ |
+                  |__|      \__|  \__|
+            `
+            );
+            console.error(
+                "don't click this link: https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            );
+        </script>
+        <style>
+            :where(.no-script) {
+                display: none;
+            }
+            .old-script,
+            .no-script {
+                width: 100%;
+                height: 100%;
+                z-index: 9999;
+                position: fixed;
+                background-color: #1f1f1f;
+                top: 0;
+                left: 0;
+                text-align: center;
+                padding: 1rem;
+            }
+            .old-script p,
+            .no-script p {
+                font-size: 25px;
+                color: #f5f5f5;
+                font-family: sans-serif;
+            }
+        </style>
+        <script defer="defer" type="module" src="/index.js"></script>
+    </body>
+</html>
